@@ -369,11 +369,6 @@ img{
 
 
 
-
-
-
-  
-
 @media (max-width: 800px){
     .preco{
         padding-left: 10px;
@@ -386,10 +381,17 @@ img{
         order: -1;
     }
 }
+
 @media (max-width: 520px){
     .newsletter{
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .newsletter p{
+        text-align: left;
+        
     }
     .produtos-container{
         display: flex;
