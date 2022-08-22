@@ -386,3 +386,13 @@ img{
         order: -1;
     }
 }
+@media (max-width: 520px){
+    .newsletter{
+        display: flex;
+        flex-direction: column;
+    }
+    .produtos-container{
+        display: flex;
+        flex-direction: column;
+    }
+}
